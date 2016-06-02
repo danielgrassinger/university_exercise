@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main(){
+	char text[128];
+	scanf("%s", text);
+	int c = 0;
+ 
+   while (text[c] != '\0') {
+      if (text[c] >= 'A' && s[c] <= 'Z') {
+         text[c] = text[c] + ('a'-'A');
+      }
+      c++;
+   }
+}
